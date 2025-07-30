@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                   ), // Replace with the actual image URL
                 ),
                 SizedBox(height: 20),
-                Text(''),
+
                 Text(
                   'Umitiya Esmael',
                   style: TextStyle(
