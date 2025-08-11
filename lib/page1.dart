@@ -5,6 +5,19 @@ class Page1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('page1'));
+    return Center(
+      child: Column(
+        children: [
+          Text('page1'),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, '/page3');
+              // Navigat
+            },
+            child: Text("Go to page3"),
+          ),
+        ],
+      ),
+    );
   }
 }
