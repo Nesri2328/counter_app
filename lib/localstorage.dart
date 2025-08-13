@@ -61,7 +61,7 @@ class _LocalstorageState extends State<LocalStorage> {
             const SizedBox(height: 50),
             ElevatedButton(
               onPressed: _removeData,
-              child: const Text("Remove Data"): Color: Colors.red,
+              child: const Text("Remove Data"),
             ),
           ],
         ),
